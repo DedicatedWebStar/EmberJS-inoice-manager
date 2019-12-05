@@ -1,0 +1,12 @@
+{{header-navigation pageTitle="Invoices"}}
+<div class="row">
+  <div class="col-xs-12">
+    {{#link-to 'invoices.new' class="btn btn-primary new-invoice-button"}}<i class="fa fa-plus"></i> New
+    Invoice{{/link-to}}
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    {{invoice-table model=model}}
+  </div>
+</div>
